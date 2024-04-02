@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-color: bisque;
+}
+
+@media (min-width: 600) {
+  .body {
+    display: flex;
+    position: relative;
+    text-wrap: balance;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
+
+header {
+  padding: 20px;
+  font: bold;
+  display: flex;
+  justify-content: center;
+  border-bottom: solid;
+  font-size: 3rem;
+}
+
+.h1 {
+  padding: 10px;
+}
+
+.h3 {
+  padding: 20px;
+  margin: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.box1,
+.box2,
+.box3,
+.box4 {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.box1 text {
+  font-style: bold;
+}
